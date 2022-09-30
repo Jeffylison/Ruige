@@ -2,10 +2,10 @@
 int main()
 {
 	int a, b;
-	for (a = 1; a <= 9; a++)//9行
+	for (a = 1; a <= 9; a++)
 	{
 		for (b = 0; b < 9 - a; b++)
-			printf(" ");//每行前空格
+			printf(" ");
 		for (b = 0; b < a; b++)
 			printf("%d ", 1 + b);
 		printf("\n");
