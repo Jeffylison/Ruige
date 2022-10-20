@@ -1,3 +1,4 @@
+//SY3.4
 #include<stdio.h>
 int main()
 {
