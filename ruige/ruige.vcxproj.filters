@@ -69,5 +69,17 @@
     <ClCompile Include="SY6.2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SY6.3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SY6.4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SY7.1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SY7.2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
