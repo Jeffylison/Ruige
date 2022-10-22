@@ -15,70 +15,76 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SY3.2.cpp">
+    <ClCompile Include="实验3.2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY3.3.cpp">
+    <ClCompile Include="实验3.3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY3.4.cpp">
+    <ClCompile Include="实验3.4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY4.1.cpp">
+    <ClCompile Include="实验4.1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY4.2.cpp">
+    <ClCompile Include="实验4.2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY4.3.cpp">
+    <ClCompile Include="实验4.3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY4.4.cpp">
+    <ClCompile Include="实验4.4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ZY3.2.cpp">
+    <ClCompile Include="作业3.2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ZY4.1.cpp">
+    <ClCompile Include="作业4.1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ZY4.2.cpp">
+    <ClCompile Include="作业4.2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY5.2.cpp">
+    <ClCompile Include="实验5.2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ZY5.1.cpp">
+    <ClCompile Include="作业5.1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ZY5.2.cpp">
+    <ClCompile Include="作业5.2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY5.1.cpp">
+    <ClCompile Include="实验5.1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY5.3.cpp">
+    <ClCompile Include="实验5.3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY5.4.cpp">
+    <ClCompile Include="实验5.4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY6.1.cpp">
+    <ClCompile Include="实验6.1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY6.2.cpp">
+    <ClCompile Include="实验6.2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY6.3.cpp">
+    <ClCompile Include="实验6.3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY6.4.cpp">
+    <ClCompile Include="实验6.4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY7.1.cpp">
+    <ClCompile Include="实验7.1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SY7.2.cpp">
+    <ClCompile Include="实验7.2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="实验7.3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="作业6.1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
