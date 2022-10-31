@@ -102,5 +102,35 @@
     <ClCompile Include="实验7.5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="实验8.1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="实验8.2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="实验8.3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="实验8.4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="实验8.5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="实验9.1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="实验9.2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="实验9.3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="实验9.4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="实验9.5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
