@@ -16,25 +16,25 @@ int main()
         x.year=a;
         x.month=b;
         x.day=c;
-        n=a;
+        n=x.year;
         m=0;
-        for(a-=1; a>=2000; a--) //2004,++++.,2000
+        for(x.year-=1; x.year>=2000; x.year--) //2004,++++.,2000
         {
-            if(a%4==0)
+            if(x.year%4==0)
                 m+=366;
             else m+=365;
         }
-        for(b-=1; b>=1; b--) //5
+        for(x.month-=1; x.month>=1; x.month--) //5
         {
-            if(b==2&&n%4==0)
+            if(x.month==2&&n%4==0)
                 m+=29;
-            else if(b==2&&n%4!=0)
+            else if(x.month==2&&n%4!=0)
                 m+=28;
-            else if(b==1||b==3||b==5||b==7||b==8||b==10||b==12)//31
+            else if(x.month==1||x.month==3||x.month==5||x.month==7||x.month==8||x.month==10||x.month==12)//31
                 m+=31;
             else m+=30;
         }
-        m+=c;
+        m+=x.day;
         //printf("%d\n",m);
         if(m%5==4||m%5==0)
             printf("晒网\n");
