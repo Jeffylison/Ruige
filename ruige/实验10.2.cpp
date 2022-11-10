@@ -10,12 +10,9 @@ struct Date
 int main()
 {
     struct Date x;
-    int a,b,c,n,m=0;
-    while(scanf("%d-%d-%d",&a,&b,&c)!=EOF)
+    int m=0,n;
+    while(scanf("%d-%d-%d",&x.year,&x.month,&x.day)!=EOF)
     {
-        x.year=a;
-        x.month=b;
-        x.day=c;
         n=x.year;
         m=0;
         for(x.year-=1; x.year>=2000; x.year--) //2004,++++.,2000
