@@ -2,7 +2,11 @@
 #include <stdio.h>
 void Strcat(const char* a, const char* b)
 {
-	printf("%s%s", a, b);
+    char *p;
+	for(p=a;*p!='\0'&&*p!='\r';p++)
+        printf("%c",*p);
+    for(p=b;*p!='\0'&&*p!='\r';p++)
+        printf("%c",*p);
 }
 int main()
 {
