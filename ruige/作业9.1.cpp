@@ -14,7 +14,7 @@ int main()
 //start 
 long long func(n)
 {
-    int sum=1;
+    long int sum=1;
     for(n;n>0;n--)
         sum*=n;
     return sum;
