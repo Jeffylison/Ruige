@@ -10,6 +10,7 @@ int main()
 {
     NODE *phead,*ptail,*pnew;
     int n,i,a,t,r=0;
+    int m;
     while(scanf("%d",&n)!=EOF)
     {
         phead=(NODE *)malloc(sizeof(NODE));
@@ -27,25 +28,28 @@ int main()
         }
         scanf("%d",&t);
         NODE *Search(phead,t,r);
+        m=Search(phead,t,r);
+        if(m!=0) printf("%d\n%d\n",m,t);
+        else printf("0\n");
     }
     return 0;
 }
-NODE *Search(NODE *phead,int no,int w)
+NODE *Search(NODE *phead,int no,int r)
 {
     phead=phead->next;
     while(phead!=NULL)
     {
         if(phead->data==no)
         {
-            printf("%d\n",w+1);
-            printf("%d\n",no);
-            return 0;
+            //printf("%d\n",r+1);
+            //printf("%d\n",no);
+            return r+1;
         }
-        else {w++;phead=phead->next;}
+        else {r++;phead=phead->next;}
         //printf("%d  ",p->data);
         //p=p->next;
     }
-    printf("0\n");
-    printf("NULL\n");
-    return 0;
+    //printf("0\n");
+    //printf("NULL\n");
+    return NULL;
 }
