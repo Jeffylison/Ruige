@@ -20,6 +20,7 @@ int main()
         }
         for(i=1; i<=n+1; i++)
             printf("%d ",a[i]);
+        i=j=0;
     }
     return 0;
 }
